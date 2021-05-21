@@ -1,4 +1,5 @@
 /* FreeRTOS hardware interrupts */
+/* FreeRTOS multicore systems */
 
 /*
   #if CONFIG_FREERTOS_UNICORE
