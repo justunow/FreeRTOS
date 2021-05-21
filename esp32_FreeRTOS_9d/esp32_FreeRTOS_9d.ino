@@ -6,7 +6,7 @@
   #else
   static const BaseType_t app_cpu = 1;
   #endif
-*/
+ */
 
 static const BaseType_t pro_cpu = 0;
 static const BaseType_t app_cpu = 1;
@@ -180,7 +180,7 @@ void setup() {
     timerAttachInterrupt(timer, &onTimer, true);
     timerAlarmWrite(timer, timer_max_count, true);
     timerAlarmEnable(timer);
-  */
+   */
 
   vTaskDelete(NULL);
 }
